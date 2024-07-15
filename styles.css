@@ -1,0 +1,164 @@
+body
+{
+    /*background: url(https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background: #ffffff;
+}
+@font-face {
+    font-family: 'myFont'; 
+    src: url('Misc/font2.ttf');
+}
+
+.topMenu{
+    text-align: flex;
+}
+
+.svgMenu{
+    margin-left:0%;
+}
+.pips{
+    position: absolute;
+    margin-top: -9%;
+    margin-left: 23%;
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+}
+
+.avatar{
+   position: relative;
+   width: 12%;
+   border: 1px solid gray;
+   border-radius: 50%;
+   margin-left: 85%;
+   margin-top: -12%;
+}
+
+
+
+
+.balances{
+    position: relative;
+    text-align: left;
+    margin-top: 10%;
+}
+
+.bal1{
+    color: #000000;
+    font-size: 10px;
+    margin-top: 2%;
+     font-family: "Playwrite IS", cursive; font-family: "Playwrite FR Moderne", cursive;
+  
+}
+.bal2{
+    color: #000000;
+    font-size: 25px;
+    margin-top: -4%;
+      font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.bal3{
+    color: #06D001;
+    font-size: 11px;
+    margin-top: -6%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-video {
+    margin-top: 1%;
+    width: 103%;
+    /*border: 0.2px solid black;*/
+    background-color:#00ee00;
+    border-radius: 20px;
+    margin-left: -1.2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+https://images.pexels.com/photos/247122/pexels-photo-247122.jpeg?auto=compress&cs=tinysrgb&w=600
+
+
+https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&w=600
+
+
+
+
+ font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+  
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
