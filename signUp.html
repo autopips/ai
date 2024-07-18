@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width">
     <Link rel="stylesheet" href="signUp.css">
     <script src="signUp.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
     </style>
@@ -23,19 +24,19 @@
 
 <form class="form">
 
-          <image class="logo" src="robot2.png"></image>
+          <image class="logo" src="Img/robot2.png"></image>
 
 
     <p class="title">Register </p>
     <p class="message">Signup now and get full access to our app. </p>
         <div class="flex">
         <label>
-            <input required="" placeholder="" type="text" class="input">
+            <input required="" placeholder="" type="text" class="input" id="firstname">
             <span>Firstname</span>
         </label>
 
         <label>
-            <input required="" placeholder="" type="text" class="input">
+            <input required="" placeholder="" type="text" class="input" id="lastname">
             <span>Lastname</span>
         </label>
     </div>  
@@ -46,20 +47,29 @@
     </label>
         
     <label>
-        <input required="" placeholder="" type="number" class="input">
+        <input required="" placeholder="" type="number" class="input" id="number">
         <span>Phone Number</span>
+    </label>
+    
+    <label>
+        <input required="" placeholder="" type="date" class="input" id="dob">
+        <span>DateOfBirth(01-01-1990)</span>
     </label>
         
     <label>
-        <input required="" placeholder="" type="text" class="input">
+        <input required="" placeholder="" type="text" class="input" id="country">
         <span>Tax Residence</span>
     </label>
          
     <label>
-        <input required="" placeholder="" type="text" class="input">
+        <input required="" placeholder="" type="text" class="input" id="reason">
         <span>Account openning reason</span>
     </label>
-    
+      
+    <label>
+        <input placeholder="" type="text" class="input" id="code">
+        <span>Referal code(not required)</span>
+    </label>
     
     
         
@@ -71,7 +81,7 @@
         <input required="" placeholder="" type="password" class="input">
         <span>Confirm password</span>
     </label>
-    <button class="submit" onClick="signUpFirebase()">Submit</button>
+    <button class="submit" type="button" onClick="signUpFirebase()">Submit</button>
     <p class="signin">Already have an acount ? <a href="#">Signin</a> </p>
 </form>
 
