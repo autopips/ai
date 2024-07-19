@@ -1,0 +1,35 @@
+body
+{
+   background: #ffffff;
+}
+
+
+
+.top{
+    text-align: center;
+}
+.robot{
+    width: 70%;
+}
+.title{
+    font-size: 25px;
+    margin-top: -20%;
+    margin-left: -10%;
+    font-family: 'Righteous', cursive;
+}
+.details{
+    font-size: 15px;
+    font-family: "Rajdhani", sans-serif;
+    padding-left: 7%;
+    padding-right: 5%
+}
+
+
+
+
+
+
+
+
+
+
