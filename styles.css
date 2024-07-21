@@ -7,6 +7,10 @@ body
     src: url('Misc/font2.ttf');
 }
 
+.MainLay{
+   display: none;   
+}
+
 .topMenu{
     text-align: flex;
 }
