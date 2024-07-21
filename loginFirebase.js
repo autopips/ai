@@ -1,4 +1,5 @@
 
+
 function signUpFirebase(){
     
       var firebaseConfig = {
@@ -18,7 +19,7 @@ function signUpFirebase(){
         .then(function(user) {
           
           alert("Sign up successful!");
-          window.location.href=("index.html");
+          window.location.href=("https://www.google.com/");
           
         })
         .catch(function(error) {
@@ -50,11 +51,7 @@ function signInFirebase(){
             
             
             
-          var LoginLay = document.getElementById("LoginLay");
-          var MainLay = document.getElementById("MainLay");
-          
-          LoginLay.style.display=("none");
-          MainLay.style.display=("Block");
+        window.location.href=("main.html");
           
             
         })
