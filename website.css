@@ -1,0 +1,115 @@
+body
+{
+  background: #ffffff;
+}
+
+
+.title{
+    position: relative;
+    color: #1A3636;
+    margin-top: 5%;
+    margin-left: 1%;
+    font-size: 28px;
+    font-family: 'Righteous', cursive;
+}
+.title2{
+    position: relative;
+    color: #1A3636;
+    margin-top: -5%;
+    margin-left: 1%;
+    font-size: 15px;
+    font-family: "Rajdhani", sans-serif;
+}
+
+.avatar{
+    position: relative;
+    width: 100%;
+    margin-left: -30%;
+    margin-top: -15%;
+}
+
+
+
+
+.mockups{
+   display: flex;   
+}
+.mockup{
+   width: 40%;   
+}
+
+
+
+button {
+ font-size: 16px;
+ position: relative;
+ margin: auto;
+ padding: 1em 2.5em 1em 2.5em;
+ border: none;
+ background: #0D9276;
+ transition: all 0.1s linear;
+ box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
+ margin-top: -20%;
+}
+
+button:active {
+ transform: scale(0.95);
+}
+
+button span {
+ color: #ffffff;
+}
+
+button .border {
+ position: absolute;
+ transition: all 0.3s 0.08s linear;
+ top: 50%;
+ left: 50%;
+ width: 9em;
+ height: 3em;
+ transform: translate(-50%, -50%);
+}
+
+button:hover .border {
+ display: block;
+ width: 9.9em;
+ height: 3.7em;
+}
+
+.full-rounded {
+ border-radius: 2em;
+}
+
+
+
+
+
+.aboutt{
+    text-align: center;
+}
+
+.title3{
+    font-size: 25px;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-family: 'Righteous', cursive;
+}
+.details{
+    font-size: 15px;
+    font-family: "Rajdhani", sans-serif;
+    padding-left: 7%;
+    padding-right: 5%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
