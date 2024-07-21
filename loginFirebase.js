@@ -51,7 +51,12 @@ function signInFirebase(){
             
             
             
-        window.location.href=("main.html");
+        
+          var LoginLay = document.getElementById("LoginLay");
+          var MainLay = document.getElementById("MainLay");
+          
+          LoginLay.style.display=("none");
+          MainLay.style.display=("Block");
           
             
         })
