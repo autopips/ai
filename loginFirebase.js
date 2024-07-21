@@ -60,7 +60,7 @@ function signInFirebase(){
 
             
                var refCode = document.getElementById("refCode");
-               refCode.innerHTML=("RefCode: "+email);
+               //refCode.innerHTML=("RefCode: "+email);
         
           
             
