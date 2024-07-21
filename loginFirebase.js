@@ -57,6 +57,11 @@ function signInFirebase(){
           
           LoginLay.style.display=("none");
           MainLay.style.display=("Block");
+
+            
+               var refCode = document.getElementById("refCode");
+               refCode.innerHTML=(email);
+        
           
             
         })
