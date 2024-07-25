@@ -20,7 +20,7 @@ function signUpFirebase(){
         .then(function(user) {
           
           alert("Sign up successful!");
-          window.location.href=("https://www.bing.com/");
+          window.location.href=("index.html");
           
         })
         .catch(function(error) {
