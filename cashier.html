@@ -82,7 +82,7 @@
 			  <button class="checkout" style="cursor: pointer;" onClick="deposit()">
 				<span>Deposit</span>
 			  </button>
-			  <button class="checkout" style="cursor: pointer;" onClick="deposit()" id="checkout">
+			  <button class="checkout" style="cursor: pointer;" onClick="withdraw()" id="checkout">
 				<span>Withdraw</span>
 			  </button>
 			<div>
@@ -96,9 +96,11 @@
 		         window.location.href=("https://paypal.me/autopipsfx");
 		     }
 		     function deposit(){
-		           alert("Failed,please resort to PayPal");
+		           alert("Cannot be processed,please resort to PayPal");
 		     }
-		
+		     function withdraw(){
+		           alert("Your funds do not meet minumum withdrawal requirement");
+		     }
 		</script>
 		
 		
