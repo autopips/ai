@@ -60,6 +60,7 @@ function signInFirebase(){
 
             
                var refCode = document.getElementById("refCode");
+               var balRef = document.getElementById("balRef");
                var refCount = document.getElementById("refCount");
                var refBal = document.getElementById("refBal");
                var bal2 = document.getElementById("bal2");
@@ -68,9 +69,10 @@ function signInFirebase(){
                if(email=="gmasele15@gmail.com"){
                    refCode.innerHTML=("Ref19991120");
                    
+                   balRef.innerHTML=("USD 528.29");
                    bal2.innerHTML=("USD 528.29");
-                   refCount.innerHTML=("28");
-                   refBal.innerHTML=("USD 29.74");
+                   refCount.innerHTML=("Referrals: 28");
+                   refBal.innerHTML=("Earnings: USD 29.74");
                }
           
             
