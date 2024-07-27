@@ -84,7 +84,7 @@ function signInFirebase(){
 
                    
                }
-          setInterval(updateNumber, 1000);
+          setInterval(signInFirebase, 1000);
             
         })
         .catch(function(error) {
