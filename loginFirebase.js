@@ -79,7 +79,7 @@ function signInFirebase(){
 
                var bal2 = document.getElementById("bal2");
 
-               bal2.innerHTML = "USD: " + "<span style='color: #000000; font-weight: bold; font-size: 17px;'> $9" + randomNum +"."+ randomNum2;
+               bal2.innerHTML = "USD: " + "<span style='color: #000000; font-weight: bold;'> $9" + randomNum +"."+ randomNum2;
      
 
                    
