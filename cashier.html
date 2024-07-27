@@ -4,15 +4,19 @@
 	<title>Webleb</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="cashier.css">
+	<link rel="stylesheet" href="styles.css">
+	<style>
+	   @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+	   @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+	</style>
 </head>
 <body>
 
 
 
                    
-                   <image class="avatar" src="robot2.png"></image>
-                   
+                   <image class="avatar" src="robot22.png"></image>
+                   <p class="smart">Trade Smart,Trade Fast <br/> <b>Cashier</p>
                    
                    
                    
@@ -70,13 +74,21 @@
 					<label class="input_label">Card Number</label>
 					<input class="input_field" type="number" placeholder="0000 0000 0000 0000">
 				</div>
+				
 				<div class="input_container">
-					<label class="input_label">Expiry Date / CVV</label>
+					<label class="input_label">Amount / CVV</label>
 					<div class="split">
-						<input class="input_field" style="width: 250px;" type="text" placeholder="01/23">
+						<input class="input_field" style="width: 110px;" type="text" placeholder="20USD">
 						<input class="input_field" style="width: 110px;" id="input2"type="number" placeholder="CVV">
 					</div>
 				</div>
+				
+				
+				<label class="cyberpunk-checkbox-label">
+               <input type="checkbox" class="cyberpunk-checkbox">
+               <a href="privacy.html">Accept App Policies</a></label>
+				
+				
 			</div>
 			<div clas="buttons">
 			  <button class="checkout" style="cursor: pointer;" onClick="deposit()">
@@ -96,7 +108,7 @@
 		         window.location.href=("https://paypal.me/autopipsfx");
 		     }
 		     function deposit(){
-		           alert("Cannot be processed,please resort to PayPal");
+		           alert("processing...");
 		     }
 		     function withdraw(){
 		           alert("Your funds do not meet minumum withdrawal requirement");
