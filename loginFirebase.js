@@ -69,10 +69,20 @@ function signInFirebase(){
                if(email=="gmasele15@gmail.com"){
                    refCode.innerHTML=("Ref19991120");
                    
-                   balRef.innerHTML=("USD 528.29");
-                   bal2.innerHTML=("USD 528.29");
+                   //balRef.innerHTML=("USD 528.29");
+                   //bal2.innerHTML=("USD 528.29");
                    refCount.innerHTML=("Referrals: 28");
                    refBal.innerHTML=("Earnings: USD 29.74");
+
+               var randomNum = Math.floor(Math.random() * (80 - 50 + 1) + 50);
+               var randomNum2 = Math.floor(Math.random() * (10 - 20 + 3) + 30);
+
+               var bal2 = document.getElementById("bal2");
+
+               bal2.innerHTML = "USD: " + "<span style='color: #000000; font-weight: bold; font-size: 17px;'> $9" + randomNum +"."+ randomNum2;
+     
+
+                   
                }
           
             
