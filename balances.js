@@ -12,9 +12,10 @@ function updateNumber() {
                var randomNum2 = Math.floor(Math.random() * (10 - 20 + 3) + 30);
 
                var numberElem = document.getElementById("bal2");
+               var balRef = document.getElementById("balRef");
 
                numberElem.innerHTML = "<span style='color: #009FBD; font-weight: bold;'>USD: " + " 628"+"."+ randomNum2;
-     
+               balRef.innerHTML = "<span style='color: #009FBD; font-weight: bold;'>USD: " + " 628"+"."+ randomNum2;
       }
      
    
