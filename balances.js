@@ -13,7 +13,7 @@ function updateNumber() {
 
                var numberElem = document.getElementById("bal2");
 
-               numberElem.innerHTML = "USD: " + "<span style='font-weight: bold;'> $628"+"."+ randomNum2;
+               numberElem.innerHTML = "USD: " + "<span style='color: #ffffff; font-weight: bold;'> $628"+"."+ randomNum2;
      
       }
      
