@@ -21,7 +21,7 @@ function updateNumber() {
 
 }
 
-setInterval(updateNumber, 1000);
+setInterval(updateNumber, 500);
 
 
 
