@@ -30,6 +30,7 @@ body
 .avatar{
    position: relative;
    width: 12%;
+    height: 12%;
    border: 1px solid gray;
    border-radius: 50%;
    margin-left: 85%;
