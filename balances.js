@@ -14,8 +14,8 @@ function updateNumber() {
                var numberElem = document.getElementById("bal2");
                var balRef = document.getElementById("balRef");
 
-               numberElem.innerHTML = "<span style='color: #009FBD; font-weight: bold;'>USD: " + " 923"+"."+ randomNum2;
-               balRef.innerHTML = "<span style='color: #009FBD; font-weight: bold;'>USD: " + " 923"+"."+ randomNum2;
+               numberElem.innerHTML = "<span style='color: #009FBD; font-weight: bold;'>USD: " + " 168"+"."+ randomNum2;
+               balRef.innerHTML = "<span style='color: #009FBD; font-weight: bold;'>USD: " + " 168"+"."+ randomNum2;
       }
      
    
