@@ -1,0 +1,98 @@
+<html>
+<head>
+	<title>Account</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="withdraw.css">
+   <style>
+	   @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+	   @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+	   @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+	</style>
+</head>
+<body>
+
+
+
+
+
+
+
+<div class="card" id="carddd"> 
+  <button type="button" class="dismiss">×</button> 
+  <div class="header"> 
+    <div class="image">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#000000" d="M20 7L9.00004 18L3.99994 13"></path> </g></svg>
+      </div> 
+      <div class="content">
+         <span class="title">Transaction Failed</span> 
+         
+         <!--<image class="logo" src="Img/logo.png"></image>-->
+         
+         <p class="message"> BWP500.00 withdrawal transaction Failed! System down,please try again later   </p>              
+         </div> 
+         <div class="actions">
+            <button type="button" class="history">Close</button>
+            <!--<button type="button" class="track">Revoke</button>-->
+            </div> 
+            </div> 
+            </div>
+
+
+
+
+
+
+
+                    <button class="loader__btn" id="loaderr">
+                           <div class="loader"></div>
+                           Processing ...
+                     </button>
+
+
+
+
+
+
+     <button class="buttonn" onClick="withdraw()"> Confirm</button>
+
+
+
+   <script>
+   
+      
+   
+   
+   
+   
+		     function withdraw(){
+		         
+		           var loadd = document.getElementById("loaderr");
+		           loadd.style.visibility=("visible");
+		         
+		           
+		           setTimeout(function() {
+                      document.getElementById('loaderr').style.opacity = '0';
+                      document.getElementById('loaderr').style.visibility = 'hidden';
+                      
+                      document.getElementById('carddd').style.visibility = 'visible';
+                      
+                   }, 3000);
+		           
+		           
+		           
+		           //var loadd = document.getElementById("carddd");
+		           //loadd.style.visibility=("visible");
+		     }
+
+
+   
+   </script>
+
+
+
+      
+
+
+ </body>
+</html>
